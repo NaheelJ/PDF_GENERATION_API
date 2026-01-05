@@ -1,19 +1,17 @@
 {
-  "name": "pdf-generation",
+  "name": "positron-pdf",
   "version": "1.0.0",
   "private": true,
-  "description": "Pension PDF generation API",
+  "description": "Positron PDF generation API",
   "main": "server.js",
-
   "scripts": {
     "start": "node server.js"
   },
-
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   },
-
   "dependencies": {
+    "@fontsource/noto-sans-malayalam": "^5.2.8",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "pdfkit": "^0.13.0"
